@@ -4,7 +4,7 @@ public class appHeranca {
 	public static void main(String[] args) {
 		
 		Usuario u1 = new Usuario(0, "", "", "", "");
-		Colaborador c1 = new Colaborador(0, "", "", "", "",0);
+		Colaborador c1 = new Colaborador(0, "", "", "", "",0, "");
 		
 //		Utilizando método de entrada das subclasses
 		u1.entrada();

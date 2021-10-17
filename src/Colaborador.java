@@ -39,7 +39,7 @@ public class Colaborador extends Usuario {
 	 * @param endereco
 	 * @param salario
 	 */
-	Colaborador(int rg, String nome, String cpf, String tel, String endereco, double salario) {
+	Colaborador(int rg, String nome, String cpf, String tel, String endereco, double salario, String funcao) {
 		super(rg, nome, cpf, tel, endereco);
 	}	
 	
